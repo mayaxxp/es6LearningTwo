@@ -10,7 +10,9 @@ Vue.use(VueRouter);
 import homePage from './src/homePage.vue';
 import infoPage from './src/infoPage.vue';
 import settingPage from './src/settingPage.vue';
-
+var imypage=require("./imypage");
+let mp=new imypage();
+mp.add();
 
 var router=new VueRouter({
     routes:[
